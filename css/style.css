@@ -1,0 +1,86 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.background_admin{
+    background-color: gray;
+    padding:15px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+.background_admin p{
+    text-align: center;
+    font-size: 30px;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    border-radius: 20px;
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+.menu li{
+    list-style: none;
+    padding: 10px;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    padding: 25px 15px;
+}
+.menu li:hover{
+    background-color: gray;
+    border-radius: 10px;
+}
+.menu a:hover{
+    color: black;
+    
+}
+.menu_admin{
+    display: flex;
+}
+.menu1 li{
+    list-style: none;
+    padding: 20px;
+}
+.menu1 li a{
+    text-decoration: none;
+    color:white;
+    
+}
+.menu1 li a:hover{
+    color: black;
+}
+.menu1 li:hover{
+    color: black;
+}
+.menu1{
+    background-color: gray;
+    width: 15%;
+    height: 941px;
+    text-align: center;
+    display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   font-weight: 700;
+   font-size: 18px;
+   font-variant: initial;
+}
+.background_admin1{
+    background-color: gray;
+    color: aliceblue;
+    width: 95%;
+    height: 70px;
+}
+.hr_menu_admin{
+    margin-top: -5%;
+}
+.background_admin1 p{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 30px;
+    color: black;
+    font-weight: 800;
+}
